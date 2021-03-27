@@ -89,8 +89,7 @@ namespace Sorting.Algorithms
                 return array;
             }
             var (a, b) = Split(array);
-            var result = Merge(Sort(a), Sort(b));
-            return result;
+            return Merge(Sort(a), Sort(b));
         }
     }
 }
