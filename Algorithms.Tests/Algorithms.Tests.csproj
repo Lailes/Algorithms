@@ -21,6 +21,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Algorithms\Sorting.csproj" />
+      <ProjectReference Include="..\DataStructures\DataStructures.csproj" />
     </ItemGroup>
 
 </Project>
